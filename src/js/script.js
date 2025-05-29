@@ -47,7 +47,25 @@ function menuShow() {
         updateSlide(index);
     });
     });
-
-
 // FIM CARROSEL
 
+// ANIMAÇÃO DOS TEXTOS
+    document.addEventListener('DOMContentLoaded', () => {
+    const elements = document.querySelectorAll('.reveal');
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('active');
+            observer.unobserve(entry.target); // Anima apenas uma vez
+        }
+        });
+    }, {
+        threshold: 0.1
+    });
+
+    elements.forEach(el => {
+        observer.observe(el);
+    });
+    });
+// FIM DA ANIMAÇÃO
