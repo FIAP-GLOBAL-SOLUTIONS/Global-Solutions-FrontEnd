@@ -306,6 +306,10 @@ html {
     margin: 1rem 4rem;
 }
 
+#texto-beneficios{
+    margin-bottom: 3rem;
+}
+
 strong {
     color: #1e3a65;
     background-color: #fdf9f9;
@@ -507,5 +511,59 @@ strong {
     .imagemIlustrativa {
         width: 100%;
         margin: 0 0 1rem 0;
+    }
+}
+
+
+/* RODAPÉ */
+/* RODAPÉ */
+.rodape{
+    background-color: #014060;
+    color: rgb(0, 0, 0);
+    height: auto;
+    width: 100%;
+    font-size: 14px;
+    font-family: helvetica;
+    margin-top: 125px;
+}
+.rodape a{
+    text-decoration: none;
+    color: white;
+}
+.rodape p{
+    margin-bottom: 5px;
+}
+.rodape-div{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
+}
+.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
+}
+.rodape span{
+    font-size: 20px;
+    color: white;
+}
+.rodape-direitos{
+    width: calc(100% - 20px);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+/*mobile*/
+@media (max-width: 768px) {
+    .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+        width: calc(50% - 20px);
+        padding: 10px;
+    }
+    .rodape-div{
+        padding: 60px 0px 40px 0px;
     }
 }
