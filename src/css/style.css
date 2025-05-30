@@ -514,56 +514,26 @@ strong {
     }
 }
 
-
-/* RODAPÉ */
 /* RODAPÉ */
 .rodape{
     background-color: #014060;
-    color: rgb(0, 0, 0);
-    height: auto;
+    color: rgb(255, 255, 255);
     width: 100%;
-    font-size: 14px;
-    font-family: helvetica;
-    margin-top: 125px;
-}
-.rodape a{
-    text-decoration: none;
-    color: white;
-}
-.rodape p{
-    margin-bottom: 5px;
-}
-.rodape-div{
-    display: flex;
-    flex-wrap: wrap;
-    width:100%;
-    margin: auto;
-    align-items: stretch;
-    padding: 60px 10px 40px 10px;
-}
-.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
-    display: flex;
-    width: calc(100% / 4 - 20px);
-    padding: 10px;
-}
-.rodape span{
-    font-size: 20px;
-    color: white;
-}
-.rodape-direitos{
-    width: calc(100% - 20px);
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
-    margin: 0px;
+    font-size: 1rem;
+    margin-top: 100px;
     text-align: center;
+    height: 30px;
 }
-/*mobile*/
-@media (max-width: 768px) {
-    .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
-        width: calc(50% - 20px);
-        padding: 10px;
+
+/*Responsivo*/
+@media (max-width: 1300px) {
+    .rodape{
+    margin-top: 80px;
     }
-    .rodape-div{
-        padding: 60px 0px 40px 0px;
+}
+
+@media (max-width: 768px) {
+    .rodape{
+    margin-top: 60px;
     }
 }
