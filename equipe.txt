@@ -9,3 +9,4 @@ Kauã Gabriel Moreira e Silva - RM566043
 Marcielle Janguas Pina Carvalho - RM561505
 
 link do pages: https://fiap-global-solutions.github.io/Global-Solutions-FrontEnd/
+link do repositório: https://github.com/FIAP-GLOBAL-SOLUTIONS/Global-Solutions-FrontEnd
